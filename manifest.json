@@ -1,0 +1,14 @@
+{
+  "name": "App-name",
+  "short_name": "App-name",
+  "lang": "de-de",
+  "start_url": "/",
+  "display": "fullscreen",
+ 
+
+  "icons": [{
+      "src": "icon.png",
+      "sizes": "200x200",
+      "type": "image/png"
+  }]
+}

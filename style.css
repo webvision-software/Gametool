@@ -1,0 +1,108 @@
+
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+background-color: rgb(37, 41, 45);
+overflow: hidden;
+}
+
+header{
+    background: rgb(97,145,181);
+background: linear-gradient(180deg, rgb(37, 41, 45) 50%, rgba(37, 41, 45, 0) 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    position: fixed;
+    color: rgb(247, 58, 58);
+    text-align:left;
+    border-radius: 20px;
+    font-weight: 900;
+    
+
+} 
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.HomescreenButton{
+    height: 100px;
+    width: 100px;
+}
+
+
+.underheadline{
+    text-align: left;
+    color: white;
+}
+
+.gameBox{
+    background-color: rgba(128, 128, 128, 0.398);
+    height: 100px;
+    width: 96%;
+    position: relative;
+    left: 2%;
+    top: -30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.plusButton{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(230, 44, 44);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    position: relative;
+    top: -50px;
+}
+
+
+.pos{
+    text-align: right;
+}
+
+.bottomBar{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    bottom: 0;
+    background-color: rgb(245, 43, 43);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.table{
+width: 100%;
+position: fixed;
+bottom: 35px;
+
+}
+
+.tableTD{
+    width: 33.3%;
+}
+
+.accButton{
+    position: relative;
+    top: -60px;
+    
+}
+
+.posAcc{
+    width: 100%;
+    text-align: right;
+}
